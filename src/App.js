@@ -3,7 +3,6 @@ import './App.css';
 
 class App extends React.Component {
   state = {
-    text: ''
   }
 
   componentDidMount() {
@@ -22,7 +21,7 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <p>Text! {this.state.text}</p>
+        <h1>{this.state.text}</h1>
       </div>
     );
   }
